@@ -1,0 +1,7 @@
+Backenden är tänkt att köras i en Apache-Tomcat 9.0.27 server.
+Extern port i projektet är 2020 så denna måste ändras till det som gäller i din setup.
+
+Firebase credential-filen som refereras i koden måste införskaffas.
+Detta görs i Firebase.konsolen. SDK som används i servleten är Admin SDK.
+
+Databasreferensen som refereras i koden måste ersättas med den rätta för din setup.
