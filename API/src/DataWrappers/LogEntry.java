@@ -1,5 +1,9 @@
 package DataWrappers;
 
+/**
+ * This class serves as a wrapper for data retrieved from the database
+ */
+
 public class LogEntry {
     private final String userId;
     private final String data;

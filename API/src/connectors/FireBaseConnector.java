@@ -10,6 +10,10 @@ import java.io.IOException;
 import java.time.Instant;
 import java.util.*;
 
+/**
+ * This singelton class represents a database object in the servlet. It handles all db communication
+ */
+
 public class FireBaseConnector {
     private static FireBaseConnector intance;
     private final FirebaseApp defaultApp;

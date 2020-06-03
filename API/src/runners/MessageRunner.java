@@ -7,6 +7,9 @@ import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 import connectors.FireBaseConnector;
 
+/**
+ * This class wraps incoming calls and handles them
+ */
 
 public class MessageRunner {
     public boolean handleTextMessage(String message){

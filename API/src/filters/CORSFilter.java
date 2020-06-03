@@ -5,6 +5,10 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
+/**
+ * This filter class produces headers disabling CORS-checking on client side.
+ */
+
 public class CORSFilter implements Filter {
     public void destroy() {}
 

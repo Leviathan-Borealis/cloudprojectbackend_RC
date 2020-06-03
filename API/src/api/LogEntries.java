@@ -1,10 +1,13 @@
 package api;
 
-import connectors.FireBaseConnector;
 import runners.MessageRunner;
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
+
+/**
+ * This class is the handler for incoming http requests
+ */
 
 @Path("LogEntries")
 public class LogEntries {
